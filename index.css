@@ -1,0 +1,93 @@
+body {
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+}
+
+img {
+display: block;
+margin: 0 auto 20px;
+}
+
+div {
+margin-bottom: 20px;
+}
+
+.container {
+max-width: 100px;
+margin: 50px auto;
+background-color:  #d2ccff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+label {
+font-weight;
+display: block;
+margin-bottom: 5px;
+text-align: center;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+background-color: #6a5fff;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+}
+
+button:hover {
+background-color: #97bcff;
+}
+
+#resultado {
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #fff;
+}
+
+.pokemon-name {
+font-weight: bold;
+}
+
+.pokemon-id,
+.pokemon-abilities,
+.pokemon-types {
+margin-top: 5px;
+}
+
+.pokemon-sprite {
+margin-top: 10px;
+width: 150px;
+height: 150px;
+}
+
+.error-message {
+color: red;
+font-style: italic;
+margin-top: 10px;
+}
+
+#resultado.error {
+color: red;
+font-weight: bold;
+}
